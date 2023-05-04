@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Marko One', serif;
+    font-size:62.5%;
+ 
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(57deg ,#00c6a7,#1e4d92);
+} 
+
+
+
+
+
+/* navigation bar start */
+nav{
+    position:fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 7.5rem;
+    background: linear-gradient(57deg ,#00c6a7,#1e4d92);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
+   }
+   nav .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    max-width:100vw;
+    background: linear-gradient(57deg ,#00c6a7,#1e4d92);
+    margin: auto;
+   }
+
+   nav .navbar .logo img{
+       width: 18rem;
+       }
+    nav .navbar ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    nav .navbar ul li{
+        list-style: none;
+        padding: 1rem;
+        transition: all 0.5s ease 0.2s; 
+    }
+    nav .navbar ul li a{
+        text-decoration: none;
+        font-size: 3rem;
+        font-weight: 600;
+        color: white;
+        padding: 2rem;
+    }
+    nav .navbar ul li:hover{
+        background: black;
+        border-radius: 3rem;
+        transition: all 0.5s ease 0.2s;
+    }
+    /* navigation bar end */
+
+
+
+
+
+    /* Home page start */
+    #Home{
+        display:flex;
+    }
+    .Left{
+        margin-left:5rem;
+        margin-top: 13rem;
+        width:55rem; height:60vh;
+    }
+    .Left img{
+        width:48rem; height:48rem;
+    border-radius: 1rem;
+    box-shadow: .4rem .4rem 1.4rem #000;
+    }
+    .right {
+        margin-top: 15rem;
+        padding-left:7rem;
+        font-size:4rem;
+    }
+    .right h2 {
+        font-size:5rem;
+        color:yellowgreen;
+    }
+
+    .right p{
+        margin-top:10rem;
+        color:rgb(143, 46, 46);
+    }
+    
+    .social{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        align-items: center;
+        margin-top:3rem;
+    }
+
+    .social img{
+        width:20rem;
+        border-radius:2rem;
+
+
+    }
+    /* home page end */
+
+
+    /* live page start */
+    #Live{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        background: linear-gradient(57deg ,#00c6a7,#1e4d92);
+        align-items: center;
+        justify-content: space-between; 
+        flex-direction:column;
+        padding-top: 8rem;
+        
+
+    }
+    .hindichannel,.englishchannel{
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .hindichannel h2,.englishchannel h2{
+        font-size:3rem;
+        text-transform: capitalize;
+        font-weight:60rem;
+        padding-top: 3rem ;
+        padding-left:1rem;
+        
+    }
+   
+.hindibuttons{
+    padding: 8rem;
+    display: flex;
+    align-items: center;
+    flex-direction:row;
+
+}
+
+.hindibuttons button{
+    padding:2rem;
+}
+
+/* current page start */
+
+
+#Current{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        background: linear-gradient(57deg ,#00c6a7,#1e4d92);
+        align-items: center;
+        /* justify-content: space-between; 
+        flex-direction:row; */
+    }
+
+.currentframeleft,.currentframeright{
+    width: 50vw;
+    padding-left: 4rem;
+    
+}
+
+.currentframeleft h1,.currentframeright h1{
+       font-size:4rem;
+       padding-bottom: 3rem;
+       color: white;
+       text-transform: capitalize;
+}
+
+.currentframeleft iframe,.currentframeright iframe{
+    border: none;
+    width: 50rem;
+    height:70vh;
+    box-shadow: .4rem .4rem 1.4rem #000;
+    border-radius: 2rem;
+    
+}
+
+/* current page end */
+
+
+/* covid page start */
+#Covid{
+        width: 100vw;
+        height: 100vh;
+        padding-top:10rem;
+        background: linear-gradient(57deg ,#00c6a7,#1e4d92);
+        
+}        
+
+
+#CovidButton a{
+    font-size:4rem;
+    text-decoration: none;
+    color: red;
+    background-color: #1e4d92;
+    border-radius:2rem;
+    padding:1rem;
+    font-weight:bold;
+}
+
+#CovidButton{
+    border:none;
+    border-radius:2rem;
+}
+
+#CovidButton a:hover{
+    background:black;
+    transition: all 0.5s ease 0.2s;
+}
+
+.covidnews{
+    padding-top: 10rem;
+}
+.covidnews iframe{
+    width: 80vw;
+    /* padding-left: 2rem;
+    padding-right: 2rem; */
+    border: none;
+    height:60vh;
+    box-shadow: .4rem .4rem 1.4rem #000;
+    border-radius:2rem;
+    margin-left: 15rem;
+}
+
+
+/* covid page end */
+
+
+/* contact page start */
+#Contact{
+    width: 100vw;
+    height: 20vh;
+    padding-top:10rem;
+    background: linear-gradient(57deg ,#0f020200,#000000);
+   
+}
+
+.button a{
+    text-decoration: none;
+    font-size: 3rem;
+    color: aliceblue;
+    background:#000000;
+    font-weight: bold;
+    padding:2rem;
+    border-radius:2rem;
+
+}
+
+.button a:hover{
+    background:gray;
+}
+
+
+
+.button{
+    border: none;
+    border-radius:2rem;
+    margin-left: 68rem;
+    
+}
+#Contact p{
+    margin-top: 2rem;
+    font-weight: bold;
+    font-size: 2rem;
+
+}
+
+/* contact PAGE END */
